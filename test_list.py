@@ -57,7 +57,6 @@ class TestListMethods(unittest.TestCase):
     def test_kostiantyn_baievskyi_fi_93(self):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
 
-
     def test_schifrin_denis_fi_93(self):
         self.assertEqual([1, 2, 3, 4], [1, 2, 3, 4])
 
@@ -77,7 +76,6 @@ class TestListMethods(unittest.TestCase):
     def test_kirill_kostiuk(self):
         self.assertEqual(len(['a', 'b'] + ['b']), 3)
         self.assertEqual(['a', 'b'] + ['b'], ['a', 'b', 'b'])
-
 
 
 if __name__ == '__main__':
