@@ -28,7 +28,7 @@ class TestListMethods(unittest.TestCase):
 
     def test_kostiantyn_baievskyi_fi_93(self):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
-        
+
     def test_schifrin_denis_fi_93(self):
         self.assertEqual([1, 2, 3, 4], [1, 2, 3, 4])
 
